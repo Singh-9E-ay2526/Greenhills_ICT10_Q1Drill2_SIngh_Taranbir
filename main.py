@@ -1,16 +1,22 @@
-# Working with Numbers
-from numbers import Number
-
 from pyscript import display, document
 
+def adding_numbers(e):
 
-def greetings(e):  # creating function
-    username = document.getElementById('input1').value  # getting a value from a textbox
-    display(f'Hello {username}!', target='result')
+    number1 = int(document.getElementById('num1').value)
+    number2 = int(document.getElementById('num2').value)
 
-    def adding_numbers(e):
-        number1 = int(document.getElementById('num1').value)
-        number2 = int(document.getElementById('num2').value)
-        sum = number1 + number2
+    add = number1 + number2
+    sub = number1 - number2
+    mul = number1 * number2
+    div = number1 / number2
 
-        display(f'the sum of {number1} and {number2} is {sum}', target='result')
+    document.getElementById('result').innerHTML = ""
+
+    display(f"""
+    <h3>Results</h3>
+
+    Addition: {add}<br>
+    Subtraction: {sub}<br>
+    Multiplication: {mul}<br>
+    Division: {div}
+    """, target='result')
