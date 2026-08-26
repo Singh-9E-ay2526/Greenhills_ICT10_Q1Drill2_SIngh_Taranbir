@@ -15,8 +15,8 @@ def adding_numbers(e):
     display(f"""
     <h3>Results</h3>
 
-    ➕ Addition: {add}<br>
-    ➖ Subtraction: {sub}<br>
-    ✖️ Multiplication: {mul}<br>
-    ➗ Division: {div}
+     Addition: {add}<br>
+     Subtraction: {sub}<br>
+     Multiplication: {mul}<br>
+     Division: {div}
     """, target="result")
