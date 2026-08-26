@@ -1,0 +1,47 @@
+body {
+    background: #1e1e1e;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: #2d2d2d;
+    width: 400px;
+    border-radius: 20px;
+    border: none;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    background: #3a3a3a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-success {
+    background: #ff9500;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#result {
+    background: #3a3a3a;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+#result h3 {
+    color: #ff9500;
+    text-align: center;
+}
